@@ -15,6 +15,7 @@ body {
 }
 
 .headerNav {
+    height: 15%;
     background-color: rgb(53, 58, 64);
     display: flex;
     flex-wrap: wrap;

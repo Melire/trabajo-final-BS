@@ -11,10 +11,12 @@ body {
 }
 
 .header {
-    margin-bottom: 1rem;
+    height: 100vh;
+
 }
 
 .headerNav {
+    height: 15%;
     background-color: rgb(53, 58, 64);
     display: flex;
     flex-wrap: wrap;
