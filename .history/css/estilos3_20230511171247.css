@@ -13,7 +13,40 @@ body {
 .header {
     margin-bottom: 1rem;
 }
-/* barra de navegacion*/
+*/ barra de navegacion
+.bg-dark{
+    background-color: rgb(53, 58, 64);
+}
+/*.headerNav {
+    background-color: rgb(53, 58, 64);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    align-items: center;
+}
+*/
+.contenedorLogo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedorLogo a {
+    display: inline-block;
+    width: 30%;
+}
+
+.contenedorLogo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenedorLogo h2 {
+    color: white;
+}
+
 .nav-link {
     color: white;
 }
@@ -21,11 +54,6 @@ body {
 .color {
     color: rgb(39, 167, 70);
 }
-.colorNav{
-   background-color: rgb(56, 56, 56);
-}
-
-
 
 /*carrousel*/
 .contenedorCarousel {

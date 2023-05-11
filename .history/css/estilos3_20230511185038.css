@@ -21,12 +21,9 @@ body {
 .color {
     color: rgb(39, 167, 70);
 }
-.colorNav{
-   background-color: rgb(56, 56, 56);
+.bg-dark{
+    colo
 }
-
-
-
 /*carrousel*/
 .contenedorCarousel {
     width: 100%;
