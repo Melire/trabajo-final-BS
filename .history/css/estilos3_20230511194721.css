@@ -14,10 +14,6 @@ body {
     margin-bottom: 1rem;
 }
 /* barra de navegacion*/
-
-.justificacionNav{
-    justify-content: end;
-}
 .nav-link {
     color: white;
 }
@@ -142,7 +138,6 @@ body {
     padding: 3%;
 }
 
-
 /*formulario Orador*/
 .formularioOrador{
     align-items: center;
@@ -171,8 +166,6 @@ text-align: left;
     color: white;
 }
 
-
-/*icono whatsapp*/
 .wsp {
     position: fixed;
     bottom: 10px;
@@ -180,15 +173,13 @@ text-align: left;
     width: 50px;
 }
 
-
-/*footer*/
 .footer {
     background: linear-gradient(to right, #1d3947, #1d4962, #1e5372);
     height: 10vh;
 }
 
 .contenedorFooter {
-    width: 90%;
+    width: 70%;
     height: 100%;
     margin: 0 auto;
 }
@@ -196,30 +187,112 @@ text-align: left;
 .contenedorFooter a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1 rem;
 }
 
 /*vamos a cargar ahora el diseño para celular*/
 /*0 - 567px  */
-
+/*
 @media screen and (max-width: 567px) {
-
-.justificacionNav{
-justify-content:left;
-    }
 .contenedorFooter a {
     font-size: small;
 }
+
 
     .footer {
         height: initial;
         padding: 30px;
     }
 
-}
+
 
 
 @media screen and (min-width: 568px) and (max-width:767px) {
+    .headerNav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: initial;
+        padding: 1rem 1rem;
+
+    }
+
+    .contenedorLogo {
+        width: 50%;
+    }
+
+    .navegacion {
+        width: 100%;
+    }
+
+    .listaNav {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .linkNav {
+        font-size: 1rem;
+    }
+
+    .contenedorTextConf {
+        width: 90%;
+    }
+
+    .tituloRadores {
+        margin-top: 4rem;
+    }
+
+    .padreCards {
+        width: 90%;
+        height: initial;
+    }
+
+    .card {
+        border: 1px solid rgb(207, 202, 202);
+        width: 300px;
+        height: 90%;
+        border-radius: 2%;
+        margin-bottom: 1rem;
+    }
+
+    .lugarFecha {
+        display: flex;
+        align-items: center;
+        height: 70vh;
+        color: rgb(253, 253, 253);
+        font-size: small;
+        background: linear-gradient(to bottom, #00000026, #000000c2, #00000026), url("../assets/img/obelisco.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+        border-left: 1px solid white;
+        padding: 2%;
+    }
+
+    .right h2 {
+        margin-bottom: 1rem;
+    }
+
+    .right p {
+        margin-bottom: 1rem;
+        line-height: 1.7;
+    }
+
+    .formularioOrador {
+        height: initial;
+    }
+
+    .formularioTicket {
+        height: initial;
+    }
 
     .wsp {
         position: fixed;
@@ -228,35 +301,89 @@ justify-content:left;
         width: 30px;
     }
 
-    .contenedorFooter a {
-        font-size: medium;
+    .contenedorFooter {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
     }
-    .footer {
-        height: initial;
-        padding: 30px;
+
+    .contenedorFooter a {
+        color: white;
+        text-decoration: none;
+        font-size: small;
+        padding: 0.3rem;
+        align-items: flex-start;
+    }
 }
-}
+
+
+
 
 
 
 @media screen and (min-width: 768px) and (max-width:991px) {
 
+    .headerNav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: initial;
+        padding: 1rem 1rem;
+
+    }
+
+    .contenedorLogo {
+        width: 50%;
+    }
+
+    .navegacion {
+        width: 100%;
+    }
+
+    .listaNav {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .linkNav {
+        font-size: 1.2rem;
+    }
+
+    .contenedorTextConf {
+        width: 90%;
+    }
+
+    .tituloRadores {
+        margin-top: 5rem;
+    }
+
     .padreCards {
         width: 90%;
         height: initial;
+
     }
 
     .card {
+        border: 1px solid rgb(207, 202, 202);
+        width: 300px;
         height: 90%;
-        width: auto;
         border-radius: 2%;
         margin-bottom: 1rem;
     }
 
-    #lugarYfecha{
-        font-size: small;  
-        height: 70vh;
+    .lugarFecha {
+        display: flex;
+        align-items: stretch;
+        height: 60vh;
+        background-color: rgb(41, 41, 41);
+        color: white;
+        font-size: small;
+
     }
+
     .formularioOrador {
         height: initial;
     }
@@ -273,8 +400,10 @@ justify-content:left;
     }
 
     .contenedorFooter a {
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
         align-items: flex-start;
-        font-size: small;
     }
 
 }
@@ -314,14 +443,7 @@ justify-content:left;
     .formularioTicket {
         height: initial;
     }
-    .contenedorFooter a {
-        font-size: medium;
-    }
-    .footer {
-        height: initial;
-        margin-top: 1rem;
-        font-size: small;
-}
+
     .wsp {
         position: fixed;
         bottom: 40px;
@@ -329,8 +451,13 @@ justify-content:left;
         width: 40px;
     }
 
-   
-    
+    .contenedorFooter a {
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+        align-items: flex-start;
+    }
+
 }
 
 /*

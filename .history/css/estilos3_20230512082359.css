@@ -255,8 +255,9 @@ justify-content:left;
 
     #lugarYfecha{
         font-size: small;  
-        height: 70vh;
+        height: 90vh;
     }
+
     .formularioOrador {
         height: initial;
     }

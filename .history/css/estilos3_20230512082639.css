@@ -257,6 +257,9 @@ justify-content:left;
         font-size: small;  
         height: 70vh;
     }
+.colDer{
+    align-items: c;
+}
     .formularioOrador {
         height: initial;
     }

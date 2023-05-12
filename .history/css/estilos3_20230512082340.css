@@ -142,7 +142,6 @@ body {
     padding: 3%;
 }
 
-
 /*formulario Orador*/
 .formularioOrador{
     align-items: center;
@@ -170,9 +169,7 @@ text-align: left;
     background-color: rgb(150, 201, 62);
     color: white;
 }
-
-
-/*icono whatsapp*/
+/*whatsapp*/
 .wsp {
     position: fixed;
     bottom: 10px;
@@ -255,8 +252,9 @@ justify-content:left;
 
     #lugarYfecha{
         font-size: small;  
-        height: 70vh;
+        height: 90vh;
     }
+
     .formularioOrador {
         height: initial;
     }

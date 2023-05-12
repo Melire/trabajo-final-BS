@@ -142,7 +142,6 @@ body {
     padding: 3%;
 }
 
-
 /*formulario Orador*/
 .formularioOrador{
     align-items: center;
@@ -171,8 +170,6 @@ text-align: left;
     color: white;
 }
 
-
-/*icono whatsapp*/
 .wsp {
     position: fixed;
     bottom: 10px;
@@ -180,15 +177,13 @@ text-align: left;
     width: 50px;
 }
 
-
-/*footer*/
 .footer {
     background: linear-gradient(to right, #1d3947, #1d4962, #1e5372);
     height: 10vh;
 }
 
 .contenedorFooter {
-    width: 90%;
+    width: 70%;
     height: 100%;
     margin: 0 auto;
 }
@@ -196,7 +191,7 @@ text-align: left;
 .contenedorFooter a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1 rem;
 }
 
 /*vamos a cargar ahora el diseño para celular*/
@@ -253,9 +248,16 @@ justify-content:left;
         margin-bottom: 1rem;
     }
 
-    #lugarYfecha{
+    .lugarFecha {
+
+      height: 90vh;
+
+    }
+    .colDer{
         font-size: small;  
-        height: 70vh;
+    }
+    colIzq{
+        height: 90vh;
     }
     .formularioOrador {
         height: initial;
@@ -273,8 +275,10 @@ justify-content:left;
     }
 
     .contenedorFooter a {
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
         align-items: flex-start;
-        font-size: small;
     }
 
 }
@@ -314,14 +318,7 @@ justify-content:left;
     .formularioTicket {
         height: initial;
     }
-    .contenedorFooter a {
-        font-size: medium;
-    }
-    .footer {
-        height: initial;
-        margin-top: 1rem;
-        font-size: small;
-}
+
     .wsp {
         position: fixed;
         bottom: 40px;
@@ -329,8 +326,13 @@ justify-content:left;
         width: 40px;
     }
 
-   
-    
+    .contenedorFooter a {
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+        align-items: flex-start;
+    }
+
 }
 
 /*
