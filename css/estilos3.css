@@ -13,11 +13,13 @@ body {
 .header {
     margin-bottom: 1rem;
 }
+
 /* barra de navegacion*/
 
-.justificacionNav{
+.justificacionNav {
     justify-content: end;
 }
+
 .nav-link {
     color: white;
 }
@@ -25,8 +27,9 @@ body {
 .color {
     color: rgb(39, 167, 70);
 }
-.colorNav{
-   background-color: rgb(56, 56, 56);
+
+.colorNav {
+    background-color: rgb(56, 56, 56);
 }
 
 
@@ -90,7 +93,6 @@ body {
 }
 
 .card {
-
     width: 85%;
     margin: 0 auto;
     height: 90vh;
@@ -126,6 +128,28 @@ body {
     line-height: 1;
 }
 
+/*comprar tickets*/
+.cardTicket
+{
+    margin: 0 auto;
+    height: 30vh;
+    border-radius: 2% 2% 0px 0px;
+}
+.titulo-gral{
+text-align: center;
+}
+.titulo-ch{
+    font-size: medium;
+
+}
+.bordeRect{
+    border: solid 2px;
+}
+
+.btnForm{
+    background-color: #25a342;
+    color: white;
+}
 /*lugar y fecha*/
 .colIzq {
     background-image: url("../assets/img/obelisco.jpg");
@@ -144,34 +168,45 @@ body {
 
 
 /*formulario Orador*/
-.formularioOrador{
+.formularioOrador {
     align-items: center;
     text-align: center;
 }
-.datosUser{
+
+.datosUser {
     align-items: center;
     justify-content: center;
 }
-.imputName{
-    padding:1rem;
+
+.imputName {
+    padding: 1rem;
 }
+
 .charla {
     text-decoration: none;
     color: black;
     border-bottom: 2px dotted black;
 }
+
 .finalForm {
-font-size: smaller;
-text-align: left;
+    font-size: smaller;
+    text-align: left;
 }
 
-.btn-success-color{
+.btn-success-color {
     border-color: rgb(150, 201, 62);
     background-color: rgb(150, 201, 62);
     color: white;
+    height: 2.5rem;
 }
 
+/*formulario ticket*/
 
+    #totalPago {
+        font-size: 1.4rem;
+        font-weight: 700;
+
+    }
 /*icono whatsapp*/
 .wsp {
     position: fixed;
@@ -204,12 +239,13 @@ text-align: left;
 
 @media screen and (max-width: 567px) {
 
-.justificacionNav{
-justify-content:left;
+    .justificacionNav {
+        justify-content: left;
     }
-.contenedorFooter a {
-    font-size: small;
-}
+
+    .contenedorFooter a {
+        font-size: small;
+    }
 
     .footer {
         height: initial;
@@ -231,10 +267,11 @@ justify-content:left;
     .contenedorFooter a {
         font-size: medium;
     }
+
     .footer {
         height: initial;
         padding: 30px;
-}
+    }
 }
 
 
@@ -253,10 +290,11 @@ justify-content:left;
         margin-bottom: 1rem;
     }
 
-    #lugarYfecha{
-        font-size: small;  
+    #lugarYfecha {
+        font-size: small;
         height: 70vh;
     }
+
     .formularioOrador {
         height: initial;
     }
@@ -314,23 +352,35 @@ justify-content:left;
     .formularioTicket {
         height: initial;
     }
+
     .contenedorFooter a {
         font-size: medium;
     }
+
     .footer {
         height: initial;
         margin-top: 1rem;
         font-size: small;
-}
+    }
+
     .wsp {
         position: fixed;
         bottom: 40px;
         right: 20px;
         width: 40px;
     }
-
-   
+    .btn-compra-tickets {
+        border: 1px solid transparent;
+        border-radius: .8rem;
+      }
+      .btn-compra-tickets:hover,
+      .navbar-dark .navbar-nav .btn-compra-tickets.active {
+        background: #25a342;
+      }
+    }
     
+    .pt-section { padding-top: 3rem; }
+
 }
 
 /*
